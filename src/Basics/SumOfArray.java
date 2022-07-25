@@ -1,10 +1,14 @@
 package Basics;
 
 public class SumOfArray {
-	int[] array = {1,2,3,4,5};
+	int[] array = {1,2,3,4,6};
 	String[] strArray = {"apple", "orange" , "banana" , "mango" , "strawberry"};
 	
 	int i,sum,checkIndex , strIndex;
+	
+	SumOfArray(){
+		System.out.println("hi i am the first one");
+	}
 	
 	void sumOfArray() {
 		
@@ -13,7 +17,7 @@ public class SumOfArray {
 		for (i=0 ; i< array.length ; i++) {
 			sum += array[i];
 			if (array[i] == 5 ) {
-				System.out.println("Index is "+i);
+				System.out.println("Index is "+ i);
 			}
 			
 			
@@ -42,7 +46,8 @@ public class SumOfArray {
         System.out.println(); //ending line after each row
     } 
         System.out.println("*********"); //ending line after each row
-
+        System.out.println("");
+        System.out.println("");
         
         for(int a=1;a<=4;a++) {
         	for(int b=3;b>=a;b--) {
@@ -54,8 +59,10 @@ public class SumOfArray {
         	System.out.println("");
         }
         
-        
+        System.out.println("");
         System.out.println("@@@@@@@@@@@@@");
+        System.out.println("");
+        
         
         int n=1;
         int x=2;
@@ -79,7 +86,9 @@ public class SumOfArray {
         	System.out.println();
         	n++;
         }
+        System.out.println("");
         System.out.println("&&&&&&&&&&&&&&&");
+        System.out.println("");
         int r=0;
         for(int q=1;q<=5;q++) {
         	for(int y=1;y<=q;y++) {
@@ -92,23 +101,76 @@ public class SumOfArray {
         	r++;
         }
         
+        for(int i =1;i<=5;i++) {
+        	for(int j=i;j<=5;j++) {
+        		System.out.print("*");
+        	}
+        	System.out.println("");
+        }
+        System.out.println("");
+        
+        
+        int l=1;
+        for(int k=1;k<5;k++) {
+        	for(int j=1;j<=k;j++) {
+        		System.out.print(l);
+        		l++;
+        	}
+        	System.out.println("");
+        }
+        
+        
+        System.out.println("");
+        
+        for(int k=1;k<5;k++) {
+        	for(int j=1;j<=k;j++) {
+        		System.out.print(j);
+        		l++;
+        	}
+        	System.out.println("");
+        }
+        System.out.println("");
+        System.out.println("");
+        
+        int k=0;
+        for(int i=1;i<5;i++) {
+        	for(int j=1;j<5-k;j++) {
+        		System.out.print(j);
+
+        	}
+        	k++;
+        	System.out.println("");
+        }
+        
+        System.out.println("");
+        System.out.println("");
+        	
+        
+        
+        
+        for(int i=1;i<5;i++) {
+        	for(int j=i;j<=4;j++) {
+        		System.out.println("*");
+        	}
+        	break;
+        }
+        
+        int h = 1;
+        while(h<3) {
+        	System.out.println("i am inside loop");
+        	h++;
+        }
+
+        
 }
-		
-		
-		
-
-		
-	
-
-
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		
 		SumOfArray sumArray = new SumOfArray();
-		sumArray.sumOfArray();
-		sumArray.loop();
+		//sumArray.sumOfArray();
+		//sumArray.loop();
 		
 	}
 
