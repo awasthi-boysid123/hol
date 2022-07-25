@@ -165,6 +165,7 @@ public class SumOfArray {
         System.out.println("i am doing third commit now");
         
         System.out.println("i am beta branch");
+        System.out.println("beta doing");
         
 
         
