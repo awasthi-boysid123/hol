@@ -160,6 +160,8 @@ public class SumOfArray {
         	System.out.println("i am inside loop");
         	h++;
         }
+        
+        System.out.println("Hello welcome to git");
 
         
 }
