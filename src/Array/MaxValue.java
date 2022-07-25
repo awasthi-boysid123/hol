@@ -18,7 +18,7 @@ public class MaxValue {
 			}
 		}
 		System.out.println("Max Value is " + max);
-		System.out.println("Max Value is " + min);
+		System.out.println("Min Value is " + min);
 	}
 	
 
