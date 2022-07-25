@@ -163,6 +163,9 @@ public class SumOfArray {
         
         System.out.println("Hello welcome to git");
         System.out.println("i am doing third commit now");
+        
+        System.out.println("i am beta branch");
+        
 
         
 }
